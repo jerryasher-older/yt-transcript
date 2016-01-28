@@ -42,7 +42,7 @@
   // process it and present it.
   function transcriptCompletefn (transcript) {
 
-    console.log("transcriptCompletefn");
+    // console.log("transcriptCompletefn");
 
     if (!transcript) {
       transcript = document.getElementById("transcript-scrollbox");
@@ -51,9 +51,9 @@
     var selection = window.getSelection();        
     var range = document.createRange();
 
-    console.dir(transcript);
-    console.dir(selection);
-    console.dir(range);
+    // console.dir(transcript);
+    // console.dir(selection);
+    // console.dir(range);
 
     range.selectNodeContents(transcript);
     selection.removeAllRanges();
