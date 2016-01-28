@@ -7,22 +7,28 @@
 <h2>Three bookmarklets to help extract YouTube transcripts</h2>
 
 <ul>
-  <li>yt-transcript-select.js -- opens the transcript and selects its text in place so the user can ctrl-c copy it. The problem is that a simple paste of the transcript will not have the best formatting, the timestamp is run into the text of the transcript.
+  <li>yt-transcript-select.js -- opens the transcript and selects its text in place so the user can ctrl-c copy it.
 
-    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-select.js');document.body.appendChild(jsCode);})();">YT Select Transcript</a> - see its code below - will run the javascript code in kraken.js. 
+    The problem is that a simple paste of the transcript will not have the best formatting, the timestamp is run into the text of the transcript.
+
+    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-select.js');document.body.appendChild(jsCode);})();">YT Select Transcript</a> - will run the javascript code in yt-transcript-select.js. 
       The link can be dragged to your bookmarks.</p>
     
   </li>
-  <li>yt-transcript-jquery-dialog.js -- opens the transcript in a draggable, resizable pop window over the same window as the video. This is typical of the behavior we might expect to see in modern applications. The user is offered a button to select the text, and it has been formatted such that a paste of it is a bit friendlier than in the naive select bookmarklet.
+  <li>yt-transcript-jquery-dialog.js -- opens the transcript in a draggable, resizable pop window over the same window as the video.
 
-    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-jquery-dialog.js');document.body.appendChild(jsCode);})();">YT Transcript Dialog</a> - see its code below - will run the javascript code in kraken.js. 
+    This is typical of the behavior we might expect to see in modern applications. The user is offered a button to select the text, and it has been formatted such that a paste of it is a bit friendlier than in the naive select bookmarklet.
+
+    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-jquery-dialog.js');document.body.appendChild(jsCode);})();">YT Transcript Dialog</a> - will run the javascript code in yt-transcript-jquery-dialog.js. 
       The link can be dragged to your bookmarks.</p>
 
 
   </li>
-  <li>yt-transcript-new-window.js -- opens the transcript in a draggable, resizable entirely new window. This is typical of the behavior we might expect to see in an older app, it may not look as nice but actually the behavior is nicer since it doesn't occlude any of the video window. It has been formatted such that a paste of it is a bit friendlier than in the naive select bookmarklet.
+  <li>yt-transcript-new-window.js -- opens the transcript in a draggable, resizable entirely new window.
 
-    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-new-window.js');document.body.appendChild(jsCode);})();">YT Transcript New Window</a> - see its code below - will run the javascript code in kraken.js. 
+    This is typical of the behavior we might expect to see in an older app, it may not look as nice but actually the behavior is nicer since it doesn't occlude any of the video window. It has been formatted such that a paste of it is a bit friendlier than in the naive select bookmarklet.
+
+    <p>Clicking <a href="javascript: (function () {var jsCode = document.createElement('script');jsCode.setAttribute('src',                          'https://rawgit.com/jerryasher/yt-transcript/master/yt-transcript-new-window.js');document.body.appendChild(jsCode);})();">YT Transcript New Window</a> - will run the javascript code in yt-transcript-new-window.js. 
       The link can be dragged to your bookmarks.</p>
 
   </li>
