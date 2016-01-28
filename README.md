@@ -1,7 +1,7 @@
 yt-transcript: a bookmarklet to pop up the youtube transcript
 -----------------------------------------
 
-I like the youtube transcriptions, but I dislike the small box, and
+I like youtube transcripts, but I dislike the small box youtube puts them in, and
 mostly I dislike the difficulty in selecting and copying portions of
 the transcript.
 
