@@ -7,7 +7,7 @@ the transcript.
 
 ## Three bookmarklets to help extract YouTube transcripts
 
-[rawgit.com: yt-transcripts.html](https://rawgit.com/jerryasher/yt-transcripts/master/yt-transcripts.html) contains the bookmarklets as links that can be dragged to your browser bar.
+[rawgit.com: yt-transcripts.html](https://rawgit.com/jerryasher/yt-transcript/master/yt-transcripts.html) contains the bookmarklets as links that can be dragged to your browser bar.
 
 * yt-transcript-select.js -- opens the transcript and selects its text in place so the user can ctrl-c copy it. The problem is that a simple paste of the transcript will not have the best formatting, the timestamp is run into the text of the transcript.
 
